@@ -1,24 +1,15 @@
-# README
+# To reproduce
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby 2.7 will need to be installed.
 
-Things you may want to cover:
+```
+git clone https://github.com/taylorthurlow/filestack-rollup-repro.git
+gem install bundler
+bundle install
+yarn install
+bundle exec rails server
+```
 
-* Ruby version
+In another terminal window run `bundle exec bin/vite dev` to start the dev server.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Visit `http://localhost:3000` and inspect the browser console.
